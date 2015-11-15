@@ -12,7 +12,7 @@ yum install gdialog //gnome version
 dialog --msgbox "hello world" 9 18
 ```
 | 종류 | 사용옵션 | argv |
-| -- | -- | -- |
+| --- | --- | --- |
 | 체크상자 | --checklist | text height width item_height [tail text state] ...|
 | 정보상자 | --infobox | text height width |
 | 입력상자 | --inputbox | text height width init_string|
