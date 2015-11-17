@@ -4,10 +4,11 @@
 ```
 yum install dialog
 yum install gdialog //gnome version
+yum install zenity
 ```
 
 
-#### exemple
+#### example dialog
 ```
 dialog --msgbox "hello world" 9 18
 ```
@@ -22,3 +23,8 @@ dialog --msgbox "hello world" 9 18
 | 텍스트상자 | --textbox | filename height width|
 | yes/no box | --yesno | text height width |
 
+#### example zenity
+- http://www.tecmint.com/zenity-creates-graphical-gtk-dialog-boxes-in-command-line-and-shell-scripts/
+```
+zenity --calendar
+```
