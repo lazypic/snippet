@@ -2,7 +2,7 @@
 
 #### install
 ```
-yum install dialog
+yum install dialog //terminal version
 yum install gdialog //gnome version
 yum install zenity
 ```
