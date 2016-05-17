@@ -4,4 +4,6 @@
 ```
 sudo pip install grip
 grip your_markdown.md
+or
+grip your_markdown.md --export your_markdown.html
 ```
